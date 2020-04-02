@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lands2.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,6 @@ namespace lands2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()
