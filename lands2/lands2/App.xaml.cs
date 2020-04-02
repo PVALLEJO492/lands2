@@ -11,6 +11,7 @@ namespace lands2
         public App()
         {
             InitializeComponent();
+            MainPage = new LoginPage();
 
         }
 
